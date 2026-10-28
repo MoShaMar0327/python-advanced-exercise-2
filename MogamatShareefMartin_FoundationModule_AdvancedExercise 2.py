@@ -164,8 +164,5 @@ try:
   if result is not None:
     print(result)
 
-except ValueError:
-  print("Error! Please enter numerical values only!")
-
 except ZeroDivisionError as e:
   print(e)
